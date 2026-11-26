@@ -1,0 +1,1353 @@
+{
+  "meta": {
+    "calibration": {
+      "sha256": "7f5b6419eb58f71cc899f88015c938d71fd2e1e74aaa0ff42e7c3b320bafef83"
+    }
+  },
+  "scales": [
+    {
+      "layer": 0,
+      "site": "qkv",
+      "scale_f32_hex": "0x41bc0000",
+      "scale": 23.5,
+      "calib_amax_max": 6016.0
+    },
+    {
+      "layer": 0,
+      "site": "o",
+      "scale_f32_hex": "0x3d7e0000",
+      "scale": 0.06201171875,
+      "calib_amax_max": 15.875
+    },
+    {
+      "layer": 0,
+      "site": "mlp",
+      "scale_f32_hex": "0x3f610000",
+      "scale": 0.87890625,
+      "calib_amax_max": 225.0
+    },
+    {
+      "layer": 0,
+      "site": "down",
+      "scale_f32_hex": "0x42230000",
+      "scale": 40.75,
+      "calib_amax_max": 10432.0
+    },
+    {
+      "layer": 1,
+      "site": "qkv",
+      "scale_f32_hex": "0x40070000",
+      "scale": 2.109375,
+      "calib_amax_max": 540.0
+    },
+    {
+      "layer": 1,
+      "site": "o",
+      "scale_f32_hex": "0x3d7a0000",
+      "scale": 0.06103515625,
+      "calib_amax_max": 15.625
+    },
+    {
+      "layer": 1,
+      "site": "mlp",
+      "scale_f32_hex": "0x402e0000",
+      "scale": 2.71875,
+      "calib_amax_max": 696.0
+    },
+    {
+      "layer": 1,
+      "site": "down",
+      "scale_f32_hex": "0x40df0000",
+      "scale": 6.96875,
+      "calib_amax_max": 1784.0
+    },
+    {
+      "layer": 2,
+      "site": "qkv",
+      "scale_f32_hex": "0x3d8e0000",
+      "scale": 0.0693359375,
+      "calib_amax_max": 17.75
+    },
+    {
+      "layer": 2,
+      "site": "o",
+      "scale_f32_hex": "0x3d780000",
+      "scale": 0.060546875,
+      "calib_amax_max": 15.5
+    },
+    {
+      "layer": 2,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d2b0000",
+      "scale": 0.041748046875,
+      "calib_amax_max": 10.6875
+    },
+    {
+      "layer": 2,
+      "site": "down",
+      "scale_f32_hex": "0x3f590000",
+      "scale": 0.84765625,
+      "calib_amax_max": 217.0
+    },
+    {
+      "layer": 3,
+      "site": "qkv",
+      "scale_f32_hex": "0x3da20000",
+      "scale": 0.0791015625,
+      "calib_amax_max": 20.25
+    },
+    {
+      "layer": 3,
+      "site": "o",
+      "scale_f32_hex": "0x3d780000",
+      "scale": 0.060546875,
+      "calib_amax_max": 15.5
+    },
+    {
+      "layer": 3,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d470000",
+      "scale": 0.048583984375,
+      "calib_amax_max": 12.4375
+    },
+    {
+      "layer": 3,
+      "site": "down",
+      "scale_f32_hex": "0x3fef0000",
+      "scale": 1.8671875,
+      "calib_amax_max": 478.0
+    },
+    {
+      "layer": 4,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e0e0000",
+      "scale": 0.138671875,
+      "calib_amax_max": 35.5
+    },
+    {
+      "layer": 4,
+      "site": "o",
+      "scale_f32_hex": "0x3d780000",
+      "scale": 0.060546875,
+      "calib_amax_max": 15.5
+    },
+    {
+      "layer": 4,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ce70000",
+      "scale": 0.0281982421875,
+      "calib_amax_max": 7.21875
+    },
+    {
+      "layer": 4,
+      "site": "down",
+      "scale_f32_hex": "0x3fa20000",
+      "scale": 1.265625,
+      "calib_amax_max": 324.0
+    },
+    {
+      "layer": 5,
+      "site": "qkv",
+      "scale_f32_hex": "0x3ed10000",
+      "scale": 0.408203125,
+      "calib_amax_max": 104.5
+    },
+    {
+      "layer": 5,
+      "site": "o",
+      "scale_f32_hex": "0x3d9c0000",
+      "scale": 0.076171875,
+      "calib_amax_max": 19.5
+    },
+    {
+      "layer": 5,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d1e0000",
+      "scale": 0.03857421875,
+      "calib_amax_max": 9.875
+    },
+    {
+      "layer": 5,
+      "site": "down",
+      "scale_f32_hex": "0x3fc80000",
+      "scale": 1.5625,
+      "calib_amax_max": 400.0
+    },
+    {
+      "layer": 6,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e0d0000",
+      "scale": 0.1376953125,
+      "calib_amax_max": 35.25
+    },
+    {
+      "layer": 6,
+      "site": "o",
+      "scale_f32_hex": "0x3d730000",
+      "scale": 0.059326171875,
+      "calib_amax_max": 15.1875
+    },
+    {
+      "layer": 6,
+      "site": "mlp",
+      "scale_f32_hex": "0x3de20000",
+      "scale": 0.1103515625,
+      "calib_amax_max": 28.25
+    },
+    {
+      "layer": 6,
+      "site": "down",
+      "scale_f32_hex": "0x3e910000",
+      "scale": 0.283203125,
+      "calib_amax_max": 72.5
+    },
+    {
+      "layer": 7,
+      "site": "qkv",
+      "scale_f32_hex": "0x3d8d0000",
+      "scale": 0.06884765625,
+      "calib_amax_max": 17.625
+    },
+    {
+      "layer": 7,
+      "site": "o",
+      "scale_f32_hex": "0x3d730000",
+      "scale": 0.059326171875,
+      "calib_amax_max": 15.1875
+    },
+    {
+      "layer": 7,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ea30000",
+      "scale": 0.318359375,
+      "calib_amax_max": 81.5
+    },
+    {
+      "layer": 7,
+      "site": "down",
+      "scale_f32_hex": "0x3f660000",
+      "scale": 0.8984375,
+      "calib_amax_max": 230.0
+    },
+    {
+      "layer": 8,
+      "site": "qkv",
+      "scale_f32_hex": "0x3dad0000",
+      "scale": 0.08447265625,
+      "calib_amax_max": 21.625
+    },
+    {
+      "layer": 8,
+      "site": "o",
+      "scale_f32_hex": "0x3d7c0000",
+      "scale": 0.0615234375,
+      "calib_amax_max": 15.75
+    },
+    {
+      "layer": 8,
+      "site": "mlp",
+      "scale_f32_hex": "0x3da10000",
+      "scale": 0.07861328125,
+      "calib_amax_max": 20.125
+    },
+    {
+      "layer": 8,
+      "site": "down",
+      "scale_f32_hex": "0x3f540000",
+      "scale": 0.828125,
+      "calib_amax_max": 212.0
+    },
+    {
+      "layer": 9,
+      "site": "qkv",
+      "scale_f32_hex": "0x3d630000",
+      "scale": 0.055419921875,
+      "calib_amax_max": 14.1875
+    },
+    {
+      "layer": 9,
+      "site": "o",
+      "scale_f32_hex": "0x3d740000",
+      "scale": 0.0595703125,
+      "calib_amax_max": 15.25
+    },
+    {
+      "layer": 9,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d2f0000",
+      "scale": 0.042724609375,
+      "calib_amax_max": 10.9375
+    },
+    {
+      "layer": 9,
+      "site": "down",
+      "scale_f32_hex": "0x3f8c0000",
+      "scale": 1.09375,
+      "calib_amax_max": 280.0
+    },
+    {
+      "layer": 10,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f510000",
+      "scale": 0.81640625,
+      "calib_amax_max": 209.0
+    },
+    {
+      "layer": 10,
+      "site": "o",
+      "scale_f32_hex": "0x3d7b0000",
+      "scale": 0.061279296875,
+      "calib_amax_max": 15.6875
+    },
+    {
+      "layer": 10,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ee20000",
+      "scale": 0.44140625,
+      "calib_amax_max": 113.0
+    },
+    {
+      "layer": 10,
+      "site": "down",
+      "scale_f32_hex": "0x3fe20000",
+      "scale": 1.765625,
+      "calib_amax_max": 452.0
+    },
+    {
+      "layer": 11,
+      "site": "qkv",
+      "scale_f32_hex": "0x3d240000",
+      "scale": 0.0400390625,
+      "calib_amax_max": 10.25
+    },
+    {
+      "layer": 11,
+      "site": "o",
+      "scale_f32_hex": "0x3d610000",
+      "scale": 0.054931640625,
+      "calib_amax_max": 14.0625
+    },
+    {
+      "layer": 11,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d700000",
+      "scale": 0.05859375,
+      "calib_amax_max": 15.0
+    },
+    {
+      "layer": 11,
+      "site": "down",
+      "scale_f32_hex": "0x404c0000",
+      "scale": 3.1875,
+      "calib_amax_max": 816.0
+    },
+    {
+      "layer": 12,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f690000",
+      "scale": 0.91015625,
+      "calib_amax_max": 233.0
+    },
+    {
+      "layer": 12,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 12,
+      "site": "mlp",
+      "scale_f32_hex": "0x3eab0000",
+      "scale": 0.333984375,
+      "calib_amax_max": 85.5
+    },
+    {
+      "layer": 12,
+      "site": "down",
+      "scale_f32_hex": "0x40870000",
+      "scale": 4.21875,
+      "calib_amax_max": 1080.0
+    },
+    {
+      "layer": 13,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e360000",
+      "scale": 0.177734375,
+      "calib_amax_max": 45.5
+    },
+    {
+      "layer": 13,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 13,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e7f0000",
+      "scale": 0.2490234375,
+      "calib_amax_max": 63.75
+    },
+    {
+      "layer": 13,
+      "site": "down",
+      "scale_f32_hex": "0x402d0000",
+      "scale": 2.703125,
+      "calib_amax_max": 692.0
+    },
+    {
+      "layer": 14,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e320000",
+      "scale": 0.173828125,
+      "calib_amax_max": 44.5
+    },
+    {
+      "layer": 14,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 14,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e3d0000",
+      "scale": 0.1845703125,
+      "calib_amax_max": 47.25
+    },
+    {
+      "layer": 14,
+      "site": "down",
+      "scale_f32_hex": "0x411b0000",
+      "scale": 9.6875,
+      "calib_amax_max": 2480.0
+    },
+    {
+      "layer": 15,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e720000",
+      "scale": 0.236328125,
+      "calib_amax_max": 60.5
+    },
+    {
+      "layer": 15,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 15,
+      "site": "mlp",
+      "scale_f32_hex": "0x3eb70000",
+      "scale": 0.357421875,
+      "calib_amax_max": 91.5
+    },
+    {
+      "layer": 15,
+      "site": "down",
+      "scale_f32_hex": "0x40d90000",
+      "scale": 6.78125,
+      "calib_amax_max": 1736.0
+    },
+    {
+      "layer": 16,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f4a0000",
+      "scale": 0.7890625,
+      "calib_amax_max": 202.0
+    },
+    {
+      "layer": 16,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 16,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ec30000",
+      "scale": 0.380859375,
+      "calib_amax_max": 97.5
+    },
+    {
+      "layer": 16,
+      "site": "down",
+      "scale_f32_hex": "0x40ad0000",
+      "scale": 5.40625,
+      "calib_amax_max": 1384.0
+    },
+    {
+      "layer": 17,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f230000",
+      "scale": 0.63671875,
+      "calib_amax_max": 163.0
+    },
+    {
+      "layer": 17,
+      "site": "o",
+      "scale_f32_hex": "0x3dac0000",
+      "scale": 0.083984375,
+      "calib_amax_max": 21.5
+    },
+    {
+      "layer": 17,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e740000",
+      "scale": 0.23828125,
+      "calib_amax_max": 61.0
+    },
+    {
+      "layer": 17,
+      "site": "down",
+      "scale_f32_hex": "0x40600000",
+      "scale": 3.5,
+      "calib_amax_max": 896.0
+    },
+    {
+      "layer": 18,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f190000",
+      "scale": 0.59765625,
+      "calib_amax_max": 153.0
+    },
+    {
+      "layer": 18,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 18,
+      "site": "mlp",
+      "scale_f32_hex": "0x3dbd0000",
+      "scale": 0.09228515625,
+      "calib_amax_max": 23.625
+    },
+    {
+      "layer": 18,
+      "site": "down",
+      "scale_f32_hex": "0x3f610000",
+      "scale": 0.87890625,
+      "calib_amax_max": 225.0
+    },
+    {
+      "layer": 19,
+      "site": "qkv",
+      "scale_f32_hex": "0x3ee60000",
+      "scale": 0.44921875,
+      "calib_amax_max": 115.0
+    },
+    {
+      "layer": 19,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 19,
+      "site": "mlp",
+      "scale_f32_hex": "0x3dce0000",
+      "scale": 0.1005859375,
+      "calib_amax_max": 25.75
+    },
+    {
+      "layer": 19,
+      "site": "down",
+      "scale_f32_hex": "0x3f130000",
+      "scale": 0.57421875,
+      "calib_amax_max": 147.0
+    },
+    {
+      "layer": 20,
+      "site": "qkv",
+      "scale_f32_hex": "0x3fb50000",
+      "scale": 1.4140625,
+      "calib_amax_max": 362.0
+    },
+    {
+      "layer": 20,
+      "site": "o",
+      "scale_f32_hex": "0x3d7b0000",
+      "scale": 0.061279296875,
+      "calib_amax_max": 15.6875
+    },
+    {
+      "layer": 20,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e1b0000",
+      "scale": 0.1513671875,
+      "calib_amax_max": 38.75
+    },
+    {
+      "layer": 20,
+      "site": "down",
+      "scale_f32_hex": "0x401b0000",
+      "scale": 2.421875,
+      "calib_amax_max": 620.0
+    },
+    {
+      "layer": 21,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f720000",
+      "scale": 0.9453125,
+      "calib_amax_max": 242.0
+    },
+    {
+      "layer": 21,
+      "site": "o",
+      "scale_f32_hex": "0x3d7b0000",
+      "scale": 0.061279296875,
+      "calib_amax_max": 15.6875
+    },
+    {
+      "layer": 21,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e440000",
+      "scale": 0.19140625,
+      "calib_amax_max": 49.0
+    },
+    {
+      "layer": 21,
+      "site": "down",
+      "scale_f32_hex": "0x40440000",
+      "scale": 3.0625,
+      "calib_amax_max": 784.0
+    },
+    {
+      "layer": 22,
+      "site": "qkv",
+      "scale_f32_hex": "0x3ef80000",
+      "scale": 0.484375,
+      "calib_amax_max": 124.0
+    },
+    {
+      "layer": 22,
+      "site": "o",
+      "scale_f32_hex": "0x3d7e0000",
+      "scale": 0.06201171875,
+      "calib_amax_max": 15.875
+    },
+    {
+      "layer": 22,
+      "site": "mlp",
+      "scale_f32_hex": "0x3dbb0000",
+      "scale": 0.09130859375,
+      "calib_amax_max": 23.375
+    },
+    {
+      "layer": 22,
+      "site": "down",
+      "scale_f32_hex": "0x40160000",
+      "scale": 2.34375,
+      "calib_amax_max": 600.0
+    },
+    {
+      "layer": 23,
+      "site": "qkv",
+      "scale_f32_hex": "0x3eda0000",
+      "scale": 0.42578125,
+      "calib_amax_max": 109.0
+    },
+    {
+      "layer": 23,
+      "site": "o",
+      "scale_f32_hex": "0x3d9d0000",
+      "scale": 0.07666015625,
+      "calib_amax_max": 19.625
+    },
+    {
+      "layer": 23,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e290000",
+      "scale": 0.1650390625,
+      "calib_amax_max": 42.25
+    },
+    {
+      "layer": 23,
+      "site": "down",
+      "scale_f32_hex": "0x40260000",
+      "scale": 2.59375,
+      "calib_amax_max": 664.0
+    },
+    {
+      "layer": 24,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f8e0000",
+      "scale": 1.109375,
+      "calib_amax_max": 284.0
+    },
+    {
+      "layer": 24,
+      "site": "o",
+      "scale_f32_hex": "0x3d7e0000",
+      "scale": 0.06201171875,
+      "calib_amax_max": 15.875
+    },
+    {
+      "layer": 24,
+      "site": "mlp",
+      "scale_f32_hex": "0x3dbf0000",
+      "scale": 0.09326171875,
+      "calib_amax_max": 23.875
+    },
+    {
+      "layer": 24,
+      "site": "down",
+      "scale_f32_hex": "0x3f010000",
+      "scale": 0.50390625,
+      "calib_amax_max": 129.0
+    },
+    {
+      "layer": 25,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f820000",
+      "scale": 1.015625,
+      "calib_amax_max": 260.0
+    },
+    {
+      "layer": 25,
+      "site": "o",
+      "scale_f32_hex": "0x3d7b0000",
+      "scale": 0.061279296875,
+      "calib_amax_max": 15.6875
+    },
+    {
+      "layer": 25,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e330000",
+      "scale": 0.1748046875,
+      "calib_amax_max": 44.75
+    },
+    {
+      "layer": 25,
+      "site": "down",
+      "scale_f32_hex": "0x3ee10000",
+      "scale": 0.439453125,
+      "calib_amax_max": 112.5
+    },
+    {
+      "layer": 26,
+      "site": "qkv",
+      "scale_f32_hex": "0x3fa30000",
+      "scale": 1.2734375,
+      "calib_amax_max": 326.0
+    },
+    {
+      "layer": 26,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 26,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e6a0000",
+      "scale": 0.228515625,
+      "calib_amax_max": 58.5
+    },
+    {
+      "layer": 26,
+      "site": "down",
+      "scale_f32_hex": "0x3f960000",
+      "scale": 1.171875,
+      "calib_amax_max": 300.0
+    },
+    {
+      "layer": 27,
+      "site": "qkv",
+      "scale_f32_hex": "0x40210000",
+      "scale": 2.515625,
+      "calib_amax_max": 644.0
+    },
+    {
+      "layer": 27,
+      "site": "o",
+      "scale_f32_hex": "0x3d7e0000",
+      "scale": 0.06201171875,
+      "calib_amax_max": 15.875
+    },
+    {
+      "layer": 27,
+      "site": "mlp",
+      "scale_f32_hex": "0x3eb20000",
+      "scale": 0.34765625,
+      "calib_amax_max": 89.0
+    },
+    {
+      "layer": 27,
+      "site": "down",
+      "scale_f32_hex": "0x3fe70000",
+      "scale": 1.8046875,
+      "calib_amax_max": 462.0
+    },
+    {
+      "layer": 28,
+      "site": "qkv",
+      "scale_f32_hex": "0x40190000",
+      "scale": 2.390625,
+      "calib_amax_max": 612.0
+    },
+    {
+      "layer": 28,
+      "site": "o",
+      "scale_f32_hex": "0x3d7e0000",
+      "scale": 0.06201171875,
+      "calib_amax_max": 15.875
+    },
+    {
+      "layer": 28,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ec50000",
+      "scale": 0.384765625,
+      "calib_amax_max": 98.5
+    },
+    {
+      "layer": 28,
+      "site": "down",
+      "scale_f32_hex": "0x3fa40000",
+      "scale": 1.28125,
+      "calib_amax_max": 328.0
+    },
+    {
+      "layer": 29,
+      "site": "qkv",
+      "scale_f32_hex": "0x40910000",
+      "scale": 4.53125,
+      "calib_amax_max": 1160.0
+    },
+    {
+      "layer": 29,
+      "site": "o",
+      "scale_f32_hex": "0x3daa0000",
+      "scale": 0.0830078125,
+      "calib_amax_max": 21.25
+    },
+    {
+      "layer": 29,
+      "site": "mlp",
+      "scale_f32_hex": "0x3f040000",
+      "scale": 0.515625,
+      "calib_amax_max": 132.0
+    },
+    {
+      "layer": 29,
+      "site": "down",
+      "scale_f32_hex": "0x3f9e0000",
+      "scale": 1.234375,
+      "calib_amax_max": 316.0
+    },
+    {
+      "layer": 30,
+      "site": "qkv",
+      "scale_f32_hex": "0x40af0000",
+      "scale": 5.46875,
+      "calib_amax_max": 1400.0
+    },
+    {
+      "layer": 30,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 30,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e640000",
+      "scale": 0.22265625,
+      "calib_amax_max": 57.0
+    },
+    {
+      "layer": 30,
+      "site": "down",
+      "scale_f32_hex": "0x3eee0000",
+      "scale": 0.46484375,
+      "calib_amax_max": 119.0
+    },
+    {
+      "layer": 31,
+      "site": "qkv",
+      "scale_f32_hex": "0x40790000",
+      "scale": 3.890625,
+      "calib_amax_max": 996.0
+    },
+    {
+      "layer": 31,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 31,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ec40000",
+      "scale": 0.3828125,
+      "calib_amax_max": 98.0
+    },
+    {
+      "layer": 31,
+      "site": "down",
+      "scale_f32_hex": "0x3e470000",
+      "scale": 0.1943359375,
+      "calib_amax_max": 49.75
+    },
+    {
+      "layer": 32,
+      "site": "qkv",
+      "scale_f32_hex": "0x40470000",
+      "scale": 3.109375,
+      "calib_amax_max": 796.0
+    },
+    {
+      "layer": 32,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 32,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e010000",
+      "scale": 0.1259765625,
+      "calib_amax_max": 32.25
+    },
+    {
+      "layer": 32,
+      "site": "down",
+      "scale_f32_hex": "0x3ecf0000",
+      "scale": 0.404296875,
+      "calib_amax_max": 103.5
+    },
+    {
+      "layer": 33,
+      "site": "qkv",
+      "scale_f32_hex": "0x40490000",
+      "scale": 3.140625,
+      "calib_amax_max": 804.0
+    },
+    {
+      "layer": 33,
+      "site": "o",
+      "scale_f32_hex": "0x3d7d0000",
+      "scale": 0.061767578125,
+      "calib_amax_max": 15.8125
+    },
+    {
+      "layer": 33,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e020000",
+      "scale": 0.126953125,
+      "calib_amax_max": 32.5
+    },
+    {
+      "layer": 33,
+      "site": "down",
+      "scale_f32_hex": "0x3f840000",
+      "scale": 1.03125,
+      "calib_amax_max": 264.0
+    },
+    {
+      "layer": 34,
+      "site": "qkv",
+      "scale_f32_hex": "0x40350000",
+      "scale": 2.828125,
+      "calib_amax_max": 724.0
+    },
+    {
+      "layer": 34,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 34,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d940000",
+      "scale": 0.072265625,
+      "calib_amax_max": 18.5
+    },
+    {
+      "layer": 34,
+      "site": "down",
+      "scale_f32_hex": "0x3f810000",
+      "scale": 1.0078125,
+      "calib_amax_max": 258.0
+    },
+    {
+      "layer": 35,
+      "site": "qkv",
+      "scale_f32_hex": "0x406b0000",
+      "scale": 3.671875,
+      "calib_amax_max": 940.0
+    },
+    {
+      "layer": 35,
+      "site": "o",
+      "scale_f32_hex": "0x3d9c0000",
+      "scale": 0.076171875,
+      "calib_amax_max": 19.5
+    },
+    {
+      "layer": 35,
+      "site": "mlp",
+      "scale_f32_hex": "0x3df30000",
+      "scale": 0.11865234375,
+      "calib_amax_max": 30.375
+    },
+    {
+      "layer": 35,
+      "site": "down",
+      "scale_f32_hex": "0x3fa70000",
+      "scale": 1.3046875,
+      "calib_amax_max": 334.0
+    },
+    {
+      "layer": 36,
+      "site": "qkv",
+      "scale_f32_hex": "0x40a70000",
+      "scale": 5.21875,
+      "calib_amax_max": 1336.0
+    },
+    {
+      "layer": 36,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 36,
+      "site": "mlp",
+      "scale_f32_hex": "0x3dcf0000",
+      "scale": 0.10107421875,
+      "calib_amax_max": 25.875
+    },
+    {
+      "layer": 36,
+      "site": "down",
+      "scale_f32_hex": "0x3fb60000",
+      "scale": 1.421875,
+      "calib_amax_max": 364.0
+    },
+    {
+      "layer": 37,
+      "site": "qkv",
+      "scale_f32_hex": "0x40e10000",
+      "scale": 7.03125,
+      "calib_amax_max": 1800.0
+    },
+    {
+      "layer": 37,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 37,
+      "site": "mlp",
+      "scale_f32_hex": "0x3de70000",
+      "scale": 0.11279296875,
+      "calib_amax_max": 28.875
+    },
+    {
+      "layer": 37,
+      "site": "down",
+      "scale_f32_hex": "0x3f1a0000",
+      "scale": 0.6015625,
+      "calib_amax_max": 154.0
+    },
+    {
+      "layer": 38,
+      "site": "qkv",
+      "scale_f32_hex": "0x40950000",
+      "scale": 4.65625,
+      "calib_amax_max": 1192.0
+    },
+    {
+      "layer": 38,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 38,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e000000",
+      "scale": 0.125,
+      "calib_amax_max": 32.0
+    },
+    {
+      "layer": 38,
+      "site": "down",
+      "scale_f32_hex": "0x3f600000",
+      "scale": 0.875,
+      "calib_amax_max": 224.0
+    },
+    {
+      "layer": 39,
+      "site": "qkv",
+      "scale_f32_hex": "0x400e0000",
+      "scale": 2.21875,
+      "calib_amax_max": 568.0
+    },
+    {
+      "layer": 39,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 39,
+      "site": "mlp",
+      "scale_f32_hex": "0x3dba0000",
+      "scale": 0.0908203125,
+      "calib_amax_max": 23.25
+    },
+    {
+      "layer": 39,
+      "site": "down",
+      "scale_f32_hex": "0x3f9b0000",
+      "scale": 1.2109375,
+      "calib_amax_max": 310.0
+    },
+    {
+      "layer": 40,
+      "site": "qkv",
+      "scale_f32_hex": "0x40250000",
+      "scale": 2.578125,
+      "calib_amax_max": 660.0
+    },
+    {
+      "layer": 40,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 40,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d9c0000",
+      "scale": 0.076171875,
+      "calib_amax_max": 19.5
+    },
+    {
+      "layer": 40,
+      "site": "down",
+      "scale_f32_hex": "0x3f0e0000",
+      "scale": 0.5546875,
+      "calib_amax_max": 142.0
+    },
+    {
+      "layer": 41,
+      "site": "qkv",
+      "scale_f32_hex": "0x3fd80000",
+      "scale": 1.6875,
+      "calib_amax_max": 432.0
+    },
+    {
+      "layer": 41,
+      "site": "o",
+      "scale_f32_hex": "0x3daf0000",
+      "scale": 0.08544921875,
+      "calib_amax_max": 21.875
+    },
+    {
+      "layer": 41,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d8f0000",
+      "scale": 0.06982421875,
+      "calib_amax_max": 17.875
+    },
+    {
+      "layer": 41,
+      "site": "down",
+      "scale_f32_hex": "0x3f3a0000",
+      "scale": 0.7265625,
+      "calib_amax_max": 186.0
+    },
+    {
+      "layer": 42,
+      "site": "qkv",
+      "scale_f32_hex": "0x3eb60000",
+      "scale": 0.35546875,
+      "calib_amax_max": 91.0
+    },
+    {
+      "layer": 42,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 42,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d400000",
+      "scale": 0.046875,
+      "calib_amax_max": 12.0
+    },
+    {
+      "layer": 42,
+      "site": "down",
+      "scale_f32_hex": "0x3ed60000",
+      "scale": 0.41796875,
+      "calib_amax_max": 107.0
+    },
+    {
+      "layer": 43,
+      "site": "qkv",
+      "scale_f32_hex": "0x3f160000",
+      "scale": 0.5859375,
+      "calib_amax_max": 150.0
+    },
+    {
+      "layer": 43,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 43,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d290000",
+      "scale": 0.041259765625,
+      "calib_amax_max": 10.5625
+    },
+    {
+      "layer": 43,
+      "site": "down",
+      "scale_f32_hex": "0x3eb10000",
+      "scale": 0.345703125,
+      "calib_amax_max": 88.5
+    },
+    {
+      "layer": 44,
+      "site": "qkv",
+      "scale_f32_hex": "0x3efb0000",
+      "scale": 0.490234375,
+      "calib_amax_max": 125.5
+    },
+    {
+      "layer": 44,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 44,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d0f0000",
+      "scale": 0.034912109375,
+      "calib_amax_max": 8.9375
+    },
+    {
+      "layer": 44,
+      "site": "down",
+      "scale_f32_hex": "0x3e7f0000",
+      "scale": 0.2490234375,
+      "calib_amax_max": 63.75
+    },
+    {
+      "layer": 45,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e650000",
+      "scale": 0.2236328125,
+      "calib_amax_max": 57.25
+    },
+    {
+      "layer": 45,
+      "site": "o",
+      "scale_f32_hex": "0x3d800000",
+      "scale": 0.0625,
+      "calib_amax_max": 16.0
+    },
+    {
+      "layer": 45,
+      "site": "mlp",
+      "scale_f32_hex": "0x3ce30000",
+      "scale": 0.0277099609375,
+      "calib_amax_max": 7.09375
+    },
+    {
+      "layer": 45,
+      "site": "down",
+      "scale_f32_hex": "0x3ef90000",
+      "scale": 0.486328125,
+      "calib_amax_max": 124.5
+    },
+    {
+      "layer": 46,
+      "site": "qkv",
+      "scale_f32_hex": "0x3e5a0000",
+      "scale": 0.212890625,
+      "calib_amax_max": 54.5
+    },
+    {
+      "layer": 46,
+      "site": "o",
+      "scale_f32_hex": "0x3d7f0000",
+      "scale": 0.062255859375,
+      "calib_amax_max": 15.9375
+    },
+    {
+      "layer": 46,
+      "site": "mlp",
+      "scale_f32_hex": "0x3d130000",
+      "scale": 0.035888671875,
+      "calib_amax_max": 9.1875
+    },
+    {
+      "layer": 46,
+      "site": "down",
+      "scale_f32_hex": "0x3f980000",
+      "scale": 1.1875,
+      "calib_amax_max": 304.0
+    },
+    {
+      "layer": 47,
+      "site": "qkv",
+      "scale_f32_hex": "0x3ed80000",
+      "scale": 0.421875,
+      "calib_amax_max": 108.0
+    },
+    {
+      "layer": 47,
+      "site": "o",
+      "scale_f32_hex": "0x3dac0000",
+      "scale": 0.083984375,
+      "calib_amax_max": 21.5
+    },
+    {
+      "layer": 47,
+      "site": "mlp",
+      "scale_f32_hex": "0x3e0b0000",
+      "scale": 0.1357421875,
+      "calib_amax_max": 34.75
+    },
+    {
+      "layer": 47,
+      "site": "down",
+      "scale_f32_hex": "0x3f6e0000",
+      "scale": 0.9296875,
+      "calib_amax_max": 238.0
+    }
+  ]
+}

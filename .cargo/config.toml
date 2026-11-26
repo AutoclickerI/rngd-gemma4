@@ -1,0 +1,4 @@
+# Device builds can exceed archive-member and linker section limits with dev debug info.
+[profile.dev]
+debug = false
+incremental = false

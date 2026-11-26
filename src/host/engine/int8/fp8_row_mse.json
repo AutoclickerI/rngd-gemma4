@@ -1,0 +1,710 @@
+{
+  "raw_sha256": "5a29afd10c2ff29c3f38268d55f08220b1016a91616e7e963812760e03268f4b",
+  "sites": [
+    {
+      "label": "L0.gate_proj",
+      "offset": 0,
+      "rows": 15360
+    },
+    {
+      "label": "L0.up_proj",
+      "offset": 15360,
+      "rows": 15360
+    },
+    {
+      "label": "L0.down_proj",
+      "offset": 30720,
+      "rows": 3840
+    },
+    {
+      "label": "L1.gate_proj",
+      "offset": 34560,
+      "rows": 15360
+    },
+    {
+      "label": "L1.up_proj",
+      "offset": 49920,
+      "rows": 15360
+    },
+    {
+      "label": "L1.down_proj",
+      "offset": 65280,
+      "rows": 3840
+    },
+    {
+      "label": "L2.gate_proj",
+      "offset": 69120,
+      "rows": 15360
+    },
+    {
+      "label": "L2.up_proj",
+      "offset": 84480,
+      "rows": 15360
+    },
+    {
+      "label": "L2.down_proj",
+      "offset": 99840,
+      "rows": 3840
+    },
+    {
+      "label": "L3.gate_proj",
+      "offset": 103680,
+      "rows": 15360
+    },
+    {
+      "label": "L3.up_proj",
+      "offset": 119040,
+      "rows": 15360
+    },
+    {
+      "label": "L3.down_proj",
+      "offset": 134400,
+      "rows": 3840
+    },
+    {
+      "label": "L4.gate_proj",
+      "offset": 138240,
+      "rows": 15360
+    },
+    {
+      "label": "L4.up_proj",
+      "offset": 153600,
+      "rows": 15360
+    },
+    {
+      "label": "L4.down_proj",
+      "offset": 168960,
+      "rows": 3840
+    },
+    {
+      "label": "L5.gate_proj",
+      "offset": 172800,
+      "rows": 15360
+    },
+    {
+      "label": "L5.up_proj",
+      "offset": 188160,
+      "rows": 15360
+    },
+    {
+      "label": "L5.down_proj",
+      "offset": 203520,
+      "rows": 3840
+    },
+    {
+      "label": "L6.gate_proj",
+      "offset": 207360,
+      "rows": 15360
+    },
+    {
+      "label": "L6.up_proj",
+      "offset": 222720,
+      "rows": 15360
+    },
+    {
+      "label": "L6.down_proj",
+      "offset": 238080,
+      "rows": 3840
+    },
+    {
+      "label": "L7.gate_proj",
+      "offset": 241920,
+      "rows": 15360
+    },
+    {
+      "label": "L7.up_proj",
+      "offset": 257280,
+      "rows": 15360
+    },
+    {
+      "label": "L7.down_proj",
+      "offset": 272640,
+      "rows": 3840
+    },
+    {
+      "label": "L8.gate_proj",
+      "offset": 276480,
+      "rows": 15360
+    },
+    {
+      "label": "L8.up_proj",
+      "offset": 291840,
+      "rows": 15360
+    },
+    {
+      "label": "L8.down_proj",
+      "offset": 307200,
+      "rows": 3840
+    },
+    {
+      "label": "L9.gate_proj",
+      "offset": 311040,
+      "rows": 15360
+    },
+    {
+      "label": "L9.up_proj",
+      "offset": 326400,
+      "rows": 15360
+    },
+    {
+      "label": "L9.down_proj",
+      "offset": 341760,
+      "rows": 3840
+    },
+    {
+      "label": "L10.gate_proj",
+      "offset": 345600,
+      "rows": 15360
+    },
+    {
+      "label": "L10.up_proj",
+      "offset": 360960,
+      "rows": 15360
+    },
+    {
+      "label": "L10.down_proj",
+      "offset": 376320,
+      "rows": 3840
+    },
+    {
+      "label": "L11.gate_proj",
+      "offset": 380160,
+      "rows": 15360
+    },
+    {
+      "label": "L11.up_proj",
+      "offset": 395520,
+      "rows": 15360
+    },
+    {
+      "label": "L11.down_proj",
+      "offset": 410880,
+      "rows": 3840
+    },
+    {
+      "label": "L12.gate_proj",
+      "offset": 414720,
+      "rows": 15360
+    },
+    {
+      "label": "L12.up_proj",
+      "offset": 430080,
+      "rows": 15360
+    },
+    {
+      "label": "L12.down_proj",
+      "offset": 445440,
+      "rows": 3840
+    },
+    {
+      "label": "L13.gate_proj",
+      "offset": 449280,
+      "rows": 15360
+    },
+    {
+      "label": "L13.up_proj",
+      "offset": 464640,
+      "rows": 15360
+    },
+    {
+      "label": "L13.down_proj",
+      "offset": 480000,
+      "rows": 3840
+    },
+    {
+      "label": "L14.gate_proj",
+      "offset": 483840,
+      "rows": 15360
+    },
+    {
+      "label": "L14.up_proj",
+      "offset": 499200,
+      "rows": 15360
+    },
+    {
+      "label": "L14.down_proj",
+      "offset": 514560,
+      "rows": 3840
+    },
+    {
+      "label": "L15.gate_proj",
+      "offset": 518400,
+      "rows": 15360
+    },
+    {
+      "label": "L15.up_proj",
+      "offset": 533760,
+      "rows": 15360
+    },
+    {
+      "label": "L15.down_proj",
+      "offset": 549120,
+      "rows": 3840
+    },
+    {
+      "label": "L16.gate_proj",
+      "offset": 552960,
+      "rows": 15360
+    },
+    {
+      "label": "L16.up_proj",
+      "offset": 568320,
+      "rows": 15360
+    },
+    {
+      "label": "L16.down_proj",
+      "offset": 583680,
+      "rows": 3840
+    },
+    {
+      "label": "L17.gate_proj",
+      "offset": 587520,
+      "rows": 15360
+    },
+    {
+      "label": "L17.up_proj",
+      "offset": 602880,
+      "rows": 15360
+    },
+    {
+      "label": "L17.down_proj",
+      "offset": 618240,
+      "rows": 3840
+    },
+    {
+      "label": "L18.gate_proj",
+      "offset": 622080,
+      "rows": 15360
+    },
+    {
+      "label": "L18.up_proj",
+      "offset": 637440,
+      "rows": 15360
+    },
+    {
+      "label": "L18.down_proj",
+      "offset": 652800,
+      "rows": 3840
+    },
+    {
+      "label": "L19.gate_proj",
+      "offset": 656640,
+      "rows": 15360
+    },
+    {
+      "label": "L19.up_proj",
+      "offset": 672000,
+      "rows": 15360
+    },
+    {
+      "label": "L19.down_proj",
+      "offset": 687360,
+      "rows": 3840
+    },
+    {
+      "label": "L20.gate_proj",
+      "offset": 691200,
+      "rows": 15360
+    },
+    {
+      "label": "L20.up_proj",
+      "offset": 706560,
+      "rows": 15360
+    },
+    {
+      "label": "L20.down_proj",
+      "offset": 721920,
+      "rows": 3840
+    },
+    {
+      "label": "L21.gate_proj",
+      "offset": 725760,
+      "rows": 15360
+    },
+    {
+      "label": "L21.up_proj",
+      "offset": 741120,
+      "rows": 15360
+    },
+    {
+      "label": "L21.down_proj",
+      "offset": 756480,
+      "rows": 3840
+    },
+    {
+      "label": "L22.gate_proj",
+      "offset": 760320,
+      "rows": 15360
+    },
+    {
+      "label": "L22.up_proj",
+      "offset": 775680,
+      "rows": 15360
+    },
+    {
+      "label": "L22.down_proj",
+      "offset": 791040,
+      "rows": 3840
+    },
+    {
+      "label": "L23.gate_proj",
+      "offset": 794880,
+      "rows": 15360
+    },
+    {
+      "label": "L23.up_proj",
+      "offset": 810240,
+      "rows": 15360
+    },
+    {
+      "label": "L23.down_proj",
+      "offset": 825600,
+      "rows": 3840
+    },
+    {
+      "label": "L24.gate_proj",
+      "offset": 829440,
+      "rows": 15360
+    },
+    {
+      "label": "L24.up_proj",
+      "offset": 844800,
+      "rows": 15360
+    },
+    {
+      "label": "L24.down_proj",
+      "offset": 860160,
+      "rows": 3840
+    },
+    {
+      "label": "L25.gate_proj",
+      "offset": 864000,
+      "rows": 15360
+    },
+    {
+      "label": "L25.up_proj",
+      "offset": 879360,
+      "rows": 15360
+    },
+    {
+      "label": "L25.down_proj",
+      "offset": 894720,
+      "rows": 3840
+    },
+    {
+      "label": "L26.gate_proj",
+      "offset": 898560,
+      "rows": 15360
+    },
+    {
+      "label": "L26.up_proj",
+      "offset": 913920,
+      "rows": 15360
+    },
+    {
+      "label": "L26.down_proj",
+      "offset": 929280,
+      "rows": 3840
+    },
+    {
+      "label": "L27.gate_proj",
+      "offset": 933120,
+      "rows": 15360
+    },
+    {
+      "label": "L27.up_proj",
+      "offset": 948480,
+      "rows": 15360
+    },
+    {
+      "label": "L27.down_proj",
+      "offset": 963840,
+      "rows": 3840
+    },
+    {
+      "label": "L28.gate_proj",
+      "offset": 967680,
+      "rows": 15360
+    },
+    {
+      "label": "L28.up_proj",
+      "offset": 983040,
+      "rows": 15360
+    },
+    {
+      "label": "L28.down_proj",
+      "offset": 998400,
+      "rows": 3840
+    },
+    {
+      "label": "L29.gate_proj",
+      "offset": 1002240,
+      "rows": 15360
+    },
+    {
+      "label": "L29.up_proj",
+      "offset": 1017600,
+      "rows": 15360
+    },
+    {
+      "label": "L29.down_proj",
+      "offset": 1032960,
+      "rows": 3840
+    },
+    {
+      "label": "L30.gate_proj",
+      "offset": 1036800,
+      "rows": 15360
+    },
+    {
+      "label": "L30.up_proj",
+      "offset": 1052160,
+      "rows": 15360
+    },
+    {
+      "label": "L30.down_proj",
+      "offset": 1067520,
+      "rows": 3840
+    },
+    {
+      "label": "L31.gate_proj",
+      "offset": 1071360,
+      "rows": 15360
+    },
+    {
+      "label": "L31.up_proj",
+      "offset": 1086720,
+      "rows": 15360
+    },
+    {
+      "label": "L31.down_proj",
+      "offset": 1102080,
+      "rows": 3840
+    },
+    {
+      "label": "L32.gate_proj",
+      "offset": 1105920,
+      "rows": 15360
+    },
+    {
+      "label": "L32.up_proj",
+      "offset": 1121280,
+      "rows": 15360
+    },
+    {
+      "label": "L32.down_proj",
+      "offset": 1136640,
+      "rows": 3840
+    },
+    {
+      "label": "L33.gate_proj",
+      "offset": 1140480,
+      "rows": 15360
+    },
+    {
+      "label": "L33.up_proj",
+      "offset": 1155840,
+      "rows": 15360
+    },
+    {
+      "label": "L33.down_proj",
+      "offset": 1171200,
+      "rows": 3840
+    },
+    {
+      "label": "L34.gate_proj",
+      "offset": 1175040,
+      "rows": 15360
+    },
+    {
+      "label": "L34.up_proj",
+      "offset": 1190400,
+      "rows": 15360
+    },
+    {
+      "label": "L34.down_proj",
+      "offset": 1205760,
+      "rows": 3840
+    },
+    {
+      "label": "L35.gate_proj",
+      "offset": 1209600,
+      "rows": 15360
+    },
+    {
+      "label": "L35.up_proj",
+      "offset": 1224960,
+      "rows": 15360
+    },
+    {
+      "label": "L35.down_proj",
+      "offset": 1240320,
+      "rows": 3840
+    },
+    {
+      "label": "L36.gate_proj",
+      "offset": 1244160,
+      "rows": 15360
+    },
+    {
+      "label": "L36.up_proj",
+      "offset": 1259520,
+      "rows": 15360
+    },
+    {
+      "label": "L36.down_proj",
+      "offset": 1274880,
+      "rows": 3840
+    },
+    {
+      "label": "L37.gate_proj",
+      "offset": 1278720,
+      "rows": 15360
+    },
+    {
+      "label": "L37.up_proj",
+      "offset": 1294080,
+      "rows": 15360
+    },
+    {
+      "label": "L37.down_proj",
+      "offset": 1309440,
+      "rows": 3840
+    },
+    {
+      "label": "L38.gate_proj",
+      "offset": 1313280,
+      "rows": 15360
+    },
+    {
+      "label": "L38.up_proj",
+      "offset": 1328640,
+      "rows": 15360
+    },
+    {
+      "label": "L38.down_proj",
+      "offset": 1344000,
+      "rows": 3840
+    },
+    {
+      "label": "L39.gate_proj",
+      "offset": 1347840,
+      "rows": 15360
+    },
+    {
+      "label": "L39.up_proj",
+      "offset": 1363200,
+      "rows": 15360
+    },
+    {
+      "label": "L39.down_proj",
+      "offset": 1378560,
+      "rows": 3840
+    },
+    {
+      "label": "L40.gate_proj",
+      "offset": 1382400,
+      "rows": 15360
+    },
+    {
+      "label": "L40.up_proj",
+      "offset": 1397760,
+      "rows": 15360
+    },
+    {
+      "label": "L40.down_proj",
+      "offset": 1413120,
+      "rows": 3840
+    },
+    {
+      "label": "L41.gate_proj",
+      "offset": 1416960,
+      "rows": 15360
+    },
+    {
+      "label": "L41.up_proj",
+      "offset": 1432320,
+      "rows": 15360
+    },
+    {
+      "label": "L41.down_proj",
+      "offset": 1447680,
+      "rows": 3840
+    },
+    {
+      "label": "L42.gate_proj",
+      "offset": 1451520,
+      "rows": 15360
+    },
+    {
+      "label": "L42.up_proj",
+      "offset": 1466880,
+      "rows": 15360
+    },
+    {
+      "label": "L42.down_proj",
+      "offset": 1482240,
+      "rows": 3840
+    },
+    {
+      "label": "L43.gate_proj",
+      "offset": 1486080,
+      "rows": 15360
+    },
+    {
+      "label": "L43.up_proj",
+      "offset": 1501440,
+      "rows": 15360
+    },
+    {
+      "label": "L43.down_proj",
+      "offset": 1516800,
+      "rows": 3840
+    },
+    {
+      "label": "L44.gate_proj",
+      "offset": 1520640,
+      "rows": 15360
+    },
+    {
+      "label": "L44.up_proj",
+      "offset": 1536000,
+      "rows": 15360
+    },
+    {
+      "label": "L44.down_proj",
+      "offset": 1551360,
+      "rows": 3840
+    },
+    {
+      "label": "L45.gate_proj",
+      "offset": 1555200,
+      "rows": 15360
+    },
+    {
+      "label": "L45.up_proj",
+      "offset": 1570560,
+      "rows": 15360
+    },
+    {
+      "label": "L45.down_proj",
+      "offset": 1585920,
+      "rows": 3840
+    },
+    {
+      "label": "L46.gate_proj",
+      "offset": 1589760,
+      "rows": 15360
+    },
+    {
+      "label": "L46.up_proj",
+      "offset": 1605120,
+      "rows": 15360
+    },
+    {
+      "label": "L46.down_proj",
+      "offset": 1620480,
+      "rows": 3840
+    }
+  ]
+}

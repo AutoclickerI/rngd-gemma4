@@ -1,0 +1,1 @@
+paired_rfs_hoist_q4_entries!(Tok1536, mid_fs_q4_t1536_body, rfs_int8_fp8kv_t1536_g12_p999_pair, PairGroups12, [p0: dgpair_pv, p1: dgpair_pv, p2: dgpair_pv, p3: dgpair_pv, p4: dgpair_pv, p5: dgpair_pv], Prompt999, [(off0, tm0, cap0, load_rs_band, round_band, 0), (off1, tm1, cap1, load_rs_band, round_band, 1), (off2, tm2, cap2, load_rs_band, round_band, 2)]);

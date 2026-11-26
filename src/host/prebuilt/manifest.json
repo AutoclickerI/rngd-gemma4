@@ -1,0 +1,364 @@
+{
+  "stock_driver_sha256": "1363b347c2360d66d20d34ee3fcf2426d726defcefad311ec3c85f910e55fa24",
+  "carried_config": {
+    "file": "config.yaml",
+    "sha256": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+  },
+  "kernels": [
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::rss_q4_class512_t128_g1",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::rss_q4_class512_t128_g1",
+      "knobs_dir": "knobs/ops_core.resident.rss_q4_class512_t128_g1",
+      "knobs": {},
+      "image_bytes": 380928,
+      "image_sha256": "117e26e81aa5c08aa7101f8b320680cf7459d7fad4d017d713393988d3ec6c1f",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "78c38dbdc27ca414fb64b397b3fa9637b8b941db4a16e6603d8776c44063c849"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::rss_q4_class512_t128_g2",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::rss_q4_class512_t128_g2",
+      "knobs_dir": "knobs/ops_core.resident.rss_q4_class512_t128_g2",
+      "knobs": {},
+      "image_bytes": 405248,
+      "image_sha256": "5f82faaa144332e88cb350a06cc86081ed05f9c2c8c80f66e23252293ce8dd3f",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "4d8fc526c63f0237b310bd8207fd94bbd54a9d120a8c933b6d6daa3fa23b9786"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::rss_q4_class512_t128_g4",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::rss_q4_class512_t128_g4",
+      "knobs_dir": "knobs/ops_core.resident.rss_q4_class512_t128_g4",
+      "knobs": {},
+      "image_bytes": 452608,
+      "image_sha256": "3c372d9292b846c88de60c8eeadd8a525b466eac5e9cfeca558f2b344ca4692c",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "adae5d40c318e3745f8c911513e585454a98270c6edef83044512f34662336c9"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::rss_q4_class512_t128_g8",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::rss_q4_class512_t128_g8",
+      "knobs_dir": "knobs/ops_core.resident.rss_q4_class512_t128_g8",
+      "knobs": {},
+      "image_bytes": 550144,
+      "image_sha256": "44670afdd57214c9ef3d44d38a3a02626fe408bfac31dd7b3850624bed6b3603",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "e84b9cea7da6828fbb4118e57fc16dc2bc775f4b9a43e6ff338a624b8536b725"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::rss_q4_class512_t128_g16",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::rss_q4_class512_t128_g16",
+      "knobs_dir": "knobs/ops_core.resident.rss_q4_class512_t128_g16",
+      "knobs": {},
+      "image_bytes": 690432,
+      "image_sha256": "dfca14fac6ca152029e36ce5ab1002e10f0b3418e550276ee8009e7dd09945b2",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "16f587d19848e82629c4bbf794999b4882942a5ce177fc2f294a706347e10b2f"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::rfs_q4_class512_t128_g1",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::rfs_q4_class512_t128_g1",
+      "knobs_dir": "knobs/ops_core.resident_fs.rfs_q4_class512_t128_g1",
+      "knobs": {},
+      "image_bytes": 411136,
+      "image_sha256": "80b3ad3902f85b7ae0ab3c3966da08302183306a672c19000ef3c450da310267",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "7feb32103865c182c12c32aec5139c2cde717fdd4f3c65bd81a766c681ed24e6"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::rfs_q4_class512_t128_g2",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::rfs_q4_class512_t128_g2",
+      "knobs_dir": "knobs/ops_core.resident_fs.rfs_q4_class512_t128_g2",
+      "knobs": {},
+      "image_bytes": 427520,
+      "image_sha256": "11d4df52d3e2fe28525f1cd8fdf3015f7ea271c85a5ee0d9aaf9151a7536786c",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "b07a3b72c1d5d86176a420946141e8bceccdb0f3f16f46de4df594b8e3f33b7f"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::rfs_q4_class512_t128_g4",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::rfs_q4_class512_t128_g4",
+      "knobs_dir": "knobs/ops_core.resident_fs.rfs_q4_class512_t128_g4",
+      "knobs": {},
+      "image_bytes": 489984,
+      "image_sha256": "01191309e8feaa5164279040671ebb3cf3e01bcbe53dc608de4acb0714c13dd1",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "330c6b1a6598fcb72b89471def7b13c3d78ab4aba1b17e6c81be00c48c8798ca"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::rfs_q4_class512_t128_g8",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::rfs_q4_class512_t128_g8",
+      "knobs_dir": "knobs/ops_core.resident_fs.rfs_q4_class512_t128_g8",
+      "knobs": {},
+      "image_bytes": 565248,
+      "image_sha256": "9dabe800a50962c28db36915c9c50cd654e901468d04f324514396e6d4ecb2e5",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "12ff4af0ef428ce09ebea8dd1ddfd7b7d69a03088401ec7f5f9caee7be811430"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::rfs_q4_class512_t128_g16",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::rfs_q4_class512_t128_g16",
+      "knobs_dir": "knobs/ops_core.resident_fs.rfs_q4_class512_t128_g16",
+      "knobs": {},
+      "image_bytes": 725760,
+      "image_sha256": "75fc3033e1574b38d10238ce27a66066d0be3e7783e5953f51f4bf4222e85403",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "195550f5ad65cb44698ecc645983d09502ca97140705b6d6dd9307f238b2296c"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::cohort_q4::q4::mid_ss_q4_t1024",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::cohort_q4::q4::mid_ss_q4_t1024",
+      "knobs_dir": "knobs/ops_core.cohort_q4.q4.mid_ss_q4_t1024",
+      "knobs": {},
+      "image_bytes": 407552,
+      "image_sha256": "09b81c30d050168f133a1bcead3fa4092694a3efbc7bf6133c8030fb2ecef1fa",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "60292db8461280360cb779b4143b6b6c4114ad8d4be9aa2eb31edb9c29dd3e60"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::cohort_q4::q4::mid_fs_q4_t1024",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::cohort_q4::q4::mid_fs_q4_t1024",
+      "knobs_dir": "knobs/ops_core.cohort_q4.q4.mid_fs_q4_t1024",
+      "knobs": {},
+      "image_bytes": 429824,
+      "image_sha256": "45f7401bf3117fe8530e223671deb550ca20fee24d37274a0556541b13d57b3b",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_cohort.py",
+        "base_image_sha256": "1fafdc3a93d3a3f5be467d3b8439fc7ad8f2a1b739c0a575dec7256d7df52740"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::ends::last_bf16_out128",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::ends::last_bf16_out128",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 672256,
+      "image_sha256": "1550e69f06aa4074b7aadd4ddef4ef606b50dd169bd01baebd00104046750c5c",
+      "rewrite": {
+        "tool": "tools/native/fopt/compact_i4.py",
+        "base_image_sha256": "9d3aad67231073aee3e4689dfcd220cb25782db9f8347344b031ff4042e4a5a3"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_audio_rows::audio_rows",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_audio_rows::audio_rows",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 75008,
+      "image_sha256": "c5d5b93e01b8446a391849eff8f80bdc8e7f69f45b7422a54045671026cfda33"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_vision_rows::vision_rows",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_vision_rows::vision_rows",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 142848,
+      "image_sha256": "d1792c3364c665a8f9788e783b3167a99c7f574a847009e730d5038bd8df97e6"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::spm_clean::spm_clean",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::spm_clean::spm_clean",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 33536,
+      "image_sha256": "8565520f7608760761621bab61b352c2cfd7d668e8f3ed7f07927b9c9316585d",
+      "rewrite": {
+        "tool": "tools/native/fopt/spm_clean.py",
+        "base_image_sha256": "6bcd38bb2b37157de80feb72822c409c472164d10feebda015d0dace04c4a66e"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::full_resident::rsf_int8_fp8kv_t1024_s8",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::full_resident::rsf_int8_fp8kv_t1024_s8",
+      "knobs_dir": "knobs/ops_core.full_resident.rsf_int8_fp8kv_t1024_s8",
+      "knobs": {},
+      "image_bytes": 677120,
+      "image_sha256": "9f96f09758d81cff48bea5b3510ce1c77c6f6fced0dcbcb330553e1b9555b0cb"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::pre_int8_fp8kv_t1536",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::pre_int8_fp8kv_t1536",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 202240,
+      "image_sha256": "da7f7d1275fecc6c6ea0b648d19a800911be89a254ca1afa042daea6b37548a9"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::full_i8::mid_sf_int8_fp8kv_t1536",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::full_i8::mid_sf_int8_fp8kv_t1536",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 482048,
+      "image_sha256": "a4ec2e858a7d46c55cda1c175b1bf3c6ba381223d034e83224640b4a5b221e29"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::q4serve::mid_ss_t1536",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::q4serve::mid_ss_t1536",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 496384,
+      "image_sha256": "c9794af7b8fc26efc7161404334e032d0011221bb407bef52fa6095697e941db",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_wide.py",
+        "base_image_sha256": "7ae20e3efe654977ef0ad353fecce1d08c523fac30e7c1d5041977829598a0df"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::q4serve::mid_fs_t1536",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::q4serve::mid_fs_t1536",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 535808,
+      "image_sha256": "5a002aa46b609ebc6782c5bd8c8f96de8c182a3c48dcd78da9dbd977dda7c014",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_wide.py",
+        "base_image_sha256": "a023d31d86788cd8c73321e65a5335ad7b8375d3ff1d811937945cf83ae8c0c3"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_step::embed_rows_t1536",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_step::embed_rows_t1536",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 33792,
+      "image_sha256": "a52c55c8a7c5aa41e6ffd866fccc04bdf3ee90400dbb9be63285a5bd79072acc"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_step::embed_media_t1536",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_step::embed_media_t1536",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 35840,
+      "image_sha256": "41ad71b4385ab9f531f4a4a54829a5fa5a9845c47748cd98b730f11d7a50af93"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::full_resident::rsf_int8_fp8kv_t1536_s8",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::full_resident::rsf_int8_fp8kv_t1536_s8",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 711936,
+      "image_sha256": "124c125d080d85c63caf2c7ba479667338c3bc5f364dd2d4fca69d06a4e6172e"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_sampler::feedback::resolve_t1536_three512",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_sampler::feedback::resolve_t1536_three512",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 51456,
+      "image_sha256": "af37e03183a6a3a8e0afdd49f40c876c0d06716902a02cb5c1e6ce64b12b3559"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_step::wide_output::compact1536_out128",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_step::wide_output::compact1536_out128",
+      "knobs_dir": ".",
+      "knobs": {
+        "config.yaml": "4a46bbb1a37c29d5eaf5e593d0aa1d21a44d1c48118f6ed445dcbb1b5ae7ac00"
+      },
+      "image_bytes": 36608,
+      "image_sha256": "19ce8c412e0fc118ca2207722373acee4e92ac4a23657b28f2c026b44b85e377"
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::q4::rss_int8_fp8kv_t1536_g12_p999_pair",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::q4::rss_int8_fp8kv_t1536_g12_p999_pair",
+      "knobs_dir": "knobs/ops_core.resident.q4.rss_int8_fp8kv_t1536_g12_p999_pair",
+      "knobs": {
+        "ordering.txt": "31f07332707b85c4e1d9cbf7efc87e3148dbd8dd1d671fe551e4d1b643a29bdd"
+      },
+      "image_bytes": 754944,
+      "image_sha256": "bb7b634c5b0ca0dc2f5199cc12e7a6c6f6757f66725db8d35d64402252f25920",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_wide.py",
+        "base_image_sha256": "21878a383194b811e7953334ea63b6c31bd5a5a54715cf40b101161736a54d96"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::q4::rfs_int8_fp8kv_t1536_g12_p999_pair",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::q4::rfs_int8_fp8kv_t1536_g12_p999_pair",
+      "knobs_dir": "knobs/ops_core.resident_fs.q4.rfs_int8_fp8kv_t1536_g12_p999_pair",
+      "knobs": {
+        "ordering.txt": "df4321ec451e21b9b8c2de22b0360a65fca6b41aca521f81753e55e77a22b80a"
+      },
+      "image_bytes": 780288,
+      "image_sha256": "cc7332b59faded1c2eb9c622d8ffdf57f79cd07c45f47459c3713e9b725441bb",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_wide.py",
+        "base_image_sha256": "34b8c442a6f62d365d7fccb5bc90518ac876f50422a7b5816d3917f79a20ea22"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident::q4::rss_int8_fp8kv_t1024_g12_p941_pair",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident::q4::rss_int8_fp8kv_t1024_g12_p941_pair",
+      "knobs_dir": "knobs/ops_core.resident.q4.rss_int8_fp8kv_t1024_g12_p941_pair",
+      "knobs": {
+        "ordering.txt": "37109478a57395340189cc0ff594e0f53b4ced676ed28a7aa3f1dc96edae2752"
+      },
+      "image_bytes": 668416,
+      "image_sha256": "6c473dd94d511b1646bc1364c1caa55098e403e78c6ae6cb55d909eaad6b8ad4",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_n32_pvnormc.py",
+        "base_image_sha256": "0960c626d18aeba8a89664afb9d761ab4fc5487b73bef2dcee2dc1fde6714ac3"
+      }
+    },
+    {
+      "path": "furiosa_opt_gemma4::ops_core::resident_fs::q4::rfs_int8_fp8kv_t1024_g12_p941_pair",
+      "carried": "furiosa_opt_gemma4::prebuilt::ops_core::resident_fs::q4::rfs_int8_fp8kv_t1024_g12_p941_pair",
+      "knobs_dir": "knobs/ops_core.resident_fs.q4.rfs_int8_fp8kv_t1024_g12_p941_pair",
+      "knobs": {
+        "ordering.txt": "d08d38c953bf5cb8e9f95d071309b4a6be8abefafee6144c52d3596f9d6bdf68"
+      },
+      "image_bytes": 662272,
+      "image_sha256": "ecd54d88b452f20a636f859ba9c8e8a865b70c198a4ec315ced37c9fdf167bc9",
+      "rewrite": {
+        "tool": "tools/native/fopt/q4_n32_pvnormc.py",
+        "base_image_sha256": "68f7330a7e1686d05d010da47bb6db84476cd4093d37e98a71bcb5d8f760eebb"
+      }
+    }
+  ],
+  "payload_bytes": 1557897
+}

@@ -1,0 +1,2 @@
+# Emit only the Task span by omitting TUC profiling commands and spans.
+enable_tuc_profile: false

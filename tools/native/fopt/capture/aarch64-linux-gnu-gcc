@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+"""Capture the Opt compiler's task C from stdin and its compiled ELF."""
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+
+gcc = os.environ['FOPT_GCC']
+args = sys.argv[1:]
+if '-' not in args:
+    os.execv(gcc, [gcc, *args])
+
+capture = Path(os.environ['DM_CACHE_CAPTURE_ROOT']) / 'captures' / str(os.getpid())
+capture.mkdir(parents=True)
+data = sys.stdin.buffer.read()
+(capture / 'effective.c').write_bytes(data)
+result = subprocess.run([gcc, *args], input=data)
+if result.returncode == 0:
+    for i, arg in enumerate(args):
+        if arg.startswith('-o'):
+            output = Path(args[i + 1] if arg == '-o' else arg[2:])
+            if output.is_file():
+                shutil.copyfile(output, capture / 'output.elf')
+            break
+sys.exit(result.returncode)

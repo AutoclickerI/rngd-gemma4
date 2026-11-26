@@ -1,0 +1,38 @@
+{
+  "accuracy": {
+    "fleurs_en.000102": "The correlation between brain pathology and behavior supports scientists in their research.",
+    "fleurs_ko.000099": "그는 싱가포르 부총리 원캉생의 환영을 받았고, 싱가포르 총리 리셴룬과 무역 및 테러 문제를 논의하였습니다.",
+    "gsm8k.000211": "Let $r$ be the number of red chickens and $w$ be the number of white chickens.\n\n1.  From the problem, we have the equation for the total eggs:\n    $3r + 5w = 42$\n2.  We also know the relationship between the number of chickens:\n    $w = r + 2$\n3.  Substitute the second equation into the first:\n    $3r + 5(r + 2) = 42$\n4.  Simplify and solve for $r$:\n    $3r + 5r + 10 = 42$\n    $8r + 10 = 42$\n    $8r = 32$\n    $r = 4$\n5.  Check the result:\n    If $r = 4$, then $w = 4 + 2 = 6$.\n    Total eggs = $3(4) + 5(6) = 12 + 30 = 42$.\n\n#### 4",
+    "ifeval.000000": "Raymond III was a prominent medieval ruler who served as the Count of Tripoli during the period of the Crusades. He was a significant figure in the history of the Latin East and played a vital role in the political and military landscape of the Levant. His leadership was characterized by a complex balance of diplomacy and warfare as he navigated the shifting alliances between Christian states and Islamic powers.\n\n*Early Life and Succession*\nRaymond III inherited the title of Count of Tripoli from his father which established his position within the feudal hierarchy of the Crusader states. His early years were defined by the consolidation of power within his domain and the establishment of his authority over the surrounding territories. He worked to ensure that Tripoli remained a stable base for Christian influence in the region while managing the internal dynamics of his own nobility.\n\n*Military Campaigns and Diplomacy*\nThe count was known for his strategic approach to warfare. He often engaged in skirmishes to protect his borders but also sought to maintain trade and diplomatic ties when possible. His actions were often influenced by the broader goals of the Kingdom of Jerusalem and the surrounding counties. He had to manage the constant threat of expansion from neighboring sultanates while simultaneously dealing with the internal rivalries of other European knights.\n\n*Legacy and Historical Impact*\nThe historical record of Raymond III shows a man who was deeply invested in the preservation of his county. His reign contributed to the longevity of the Latin presence in the East for several decades. Scholars view his tenure as a period of transition where the rules of engagement were still being defined by the clash of cultures and religions. His name remains a staple of medieval history because of his role in the Holy Land. He is remembered for his ability to maintain a county that was often on the front lines of the holy war. His life and the history of his county provide a window into the medieval world of the 12th and 13th centuries.",
+    "mmlu.006459": "B",
+    "vqav2.000630": "yes"
+  },
+  "performance": {
+    "fleurs_en.000102": "The correlation between brain pathology and behavior supports scientists in their research. (The correlation between brain pathology and behavior supports scientists in their research.)\n\nThe correlation between brain pathology and behavior supports scientists in their research. (The correlation between brain pathology and behavior supports scientists in their research.)\n\nThe correlation between brain pathology and behavior supports",
+    "text.1024": "The provided code snippet is a Python script designed to generate synthetic data (tensors) for testing deep learning kernels, specifically for a model architecture like **Gemma 4**.\n\nIt uses a custom pseudo-random number generator (`fixture_prng`) to ensure that the data generated for a specific \"run\" and",
+    "text.2048": "The provided code snippet is a Python module designed to generate synthetic input data for testing neural network kernels (specifically for a model architecture like **Gemma 4**). It uses a custom pseudo-random number generator (`prng`) to ensure that the data used in the Python environment matches the data generated in a Rust-",
+    "text.256": "It looks like your code snippet was cut off at the end. Based on the context of the variables (dimensions like `H, L, W`, sequence lengths like `NS, GS, DS`, and the `GLOBAL_SCALE` constant), you are likely implementing a **Gemma 4** model (or a",
+    "vqav2.000630": "A large, dark-colored industrial machine with various components and pipes is positioned in the foreground, while a complex network of pipes, valves, and industrial equipment fills the background._\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_\n_"
+  },
+  "provenance": {
+    "accuracy": [
+      {
+        "plan_sha256": "af693b2b557eedcafb3ca1a35dd3835fa9dc32509755f58f0a6835a5e51844c7",
+        "run": "flareon-q-prune2-114-b-20261123-194415",
+        "server_sha256": "e1e195062034c8aed6c15b3ae6a2339f4e96e653697cc782478993debe036340"
+      }
+    ],
+    "performance": [
+      {
+        "plan_sha256": "37d60fb52ded01f0f6561d100c04ee60311d220839f75dd4250d364fb33e828e",
+        "run": "flareon-q-prune2-b-20261123-194457",
+        "server_sha256": "e1e195062034c8aed6c15b3ae6a2339f4e96e653697cc782478993debe036340"
+      },
+      {
+        "plan_sha256": "59bd1ec09e7330b2c121f123b78acb9362719bf48b88891df6429a7b155a71f7",
+        "run": "flareon-q-prune2-c-20261123-194759",
+        "server_sha256": "e1e195062034c8aed6c15b3ae6a2339f4e96e653697cc782478993debe036340"
+      }
+    ]
+  }
+}
